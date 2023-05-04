@@ -39,6 +39,7 @@
     margin: auto;
 }
 .imagem .dan{
+    max-width: 90%;
     display: block;
     margin: auto;
 }
@@ -99,4 +100,5 @@ footer > p {
     .text-ul{
         columns: 3;
     }
+
 }
