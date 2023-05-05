@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -73,7 +73,7 @@ nav .logo p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #14232b;
+        background-color: #1f3744ec;
         transition: top 1s ease;
         display: none;
     }
@@ -83,6 +83,10 @@ nav .logo p {
         top: 20px;
         right: 20px;
 
+    }
+    nav .menu li a {
+      color: #ffffff;
+      font-weight: 500;
     }
     nav .abrir-menu{
         display: block;
